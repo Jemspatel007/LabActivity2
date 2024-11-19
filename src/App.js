@@ -5,7 +5,7 @@ import Signup from './components/signup';
 import Navbar from './components/navbar';
 import Dashboard from './components/dashboard';
 import HomePage  from './components/homepage';
-import { toast, ToastContainer } from 'react-toastify'; 
+import { toast } from 'react-toastify'; 
 
 function App() {
   const handleImageUpload = async (file) => {
